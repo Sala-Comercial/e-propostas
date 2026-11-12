@@ -1,0 +1,23 @@
+{
+  "name": "criador-propostas-chat",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Criador de propostas com chat da SASI (GPT + HubSpot), separado do E- Propostas por enquanto",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "migrar": "node scripts/migrar.mjs",
+    "importar-json": "node scripts/importar-json.mjs",
+    "criar-usuario": "node scripts/criar-usuario.mjs",
+    "trocar-senha": "node scripts/trocar-senha.mjs",
+    "banco": "node scripts/banco.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "mammoth": "^1.13.0",
+    "pg": "^8.23.1",
+    "unpdf": "^1.9.1"
+  }
+}

@@ -1,0 +1,11 @@
+# segredos e dados nunca vão para o git
+.env
+data/
+node_modules/
+data-copia-*/
+.env.antes-supabase*
+
+# certificado do banco (ambiente) e lixo do sistema
+certs/
+.DS_Store
+*.log

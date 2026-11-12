@@ -1,0 +1,182 @@
+[
+ {
+  "data": "2026-11-12",
+  "titulo": "Cargos e permissões",
+  "itens": [
+   "Cada pessoa tem agora um cargo (vendedor, supervisor, gerente ou desenvolvedor) e uma permissão (membro, admin ou superADMIN), em Configurações › Usuários.",
+   "Quem aprova segue o cargo e o valor do contrato inteiro: o supervisor aprova abaixo de R$ 1 milhão e o gerente a partir disso. Sem ninguém cadastrado no nível, a proposta sobe para o nível de cima, até o aprovador final.",
+   "Cada aprovador vê só as propostas da sua alçada. O aprovador final vê todas, e o desenvolvedor vê todas só para consulta, com registro na trilha.",
+   "Ninguém aprova a própria proposta. A de quem também aprova (supervisor ou gerente que vende) vai para o aprovador final.",
+   "Só admin e superADMIN mudam preços, modalidades e a base de contexto. Só superADMIN cadastra pessoas e muda cargos e permissões."
+  ]
+ },
+ {
+  "data": "2026-11-09",
+  "titulo": "Celular na capa",
+  "itens": [
+   "Cidade na Mão: ao salvar a tabela na Calculadora CNM, a tela do app vai para a capa, no mesmo modelo e no mesmo lugar que a calculadora usa na proposta dela.",
+   "Outras soluções: na aba Proposta, o botão Enviar imagem do designer põe a tela do app no meio da capa (PNG ou JPG, até 6 MB). Dá para trocar ou tirar.",
+   "Sem imagem, a capa mostra o nome do cliente centralizado, com a data da proposta."
+  ]
+ },
+ {
+  "data": "2026-11-09",
+  "titulo": "Proposta em 3 páginas e envio só da tabela",
+  "itens": [
+   "A proposta segue o modelo da Aliança: capa, tabela de preços e recomendação de modalidade. O detalhamento item a item fica no Resumo do negócio.",
+   "A capa sai sem o celular desenhado. A tela do app só volta quando for a de verdade, feita pelo designer.",
+   "Novo botão Enviar só a tabela: o gerente aprova só a tabela de preços, e o PDF tem só essa página. Depois, é só reabrir e enviar a proposta completa."
+  ]
+ },
+ {
+  "data": "2026-11-09",
+  "titulo": "E-mail para o cliente",
+  "itens": [
+   "Proposta aprovada ganha o botão E-mail para o cliente, na aba Proposta: abre o Gerador de E-mail SASI do André já preenchido com cliente, solução, funcionalidades e o contato do vendedor.",
+   "O vendedor ajusta o que quiser (logo do cliente, cores, textos), copia para o Gmail pelo botão do gerador e anexa o PDF. Nada é enviado pelo sistema.",
+   "Nas soluções que não são Cidade na Mão, o e-mail sai sem a tela do celular e com as funcionalidades da própria solução, quando a planilha de funcionalidades tem a solução."
+  ]
+ },
+ {
+  "data": "2026-11-09",
+  "titulo": "Resumo que se explica sozinho",
+  "itens": [
+   "O chat pergunta, uma vez e em texto livre, o que o cliente quer. A frase aparece no topo do resumo e no texto para WhatsApp.",
+   "Quando o negócio vem do HubSpot sem dizer se o cliente é público ou privado, o chat pergunta.",
+   "O resumo lista em Faltou responder o que o gerente precisaria perguntar: o que o cliente quer, público ou privado e como vai contratar."
+  ]
+ },
+ {
+  "data": "2026-11-06",
+  "titulo": "Capa com prévia do app só no Cidade na Mão",
+  "itens": [
+   "Nas outras soluções, a proposta em PDF abre direto na tabela de preços, com o nome da solução no título e a marca da SASI no pé da página."
+  ]
+ },
+ {
+  "data": "2026-11-05",
+  "titulo": "Novos nomes dos planos e tabela no novo formato",
+  "itens": [
+   "Os planos agora são Minimal, Premium e AI Driven. O Básico virou Minimal, o Pro virou Premium e o Premium antigo virou AI Driven.",
+   "A tabela de preço sai em Planos e componentes: aplicativos, sistemas, inteligência artificial, suporte e adicionais, com implementação, mensalidade e total de 12 meses no fim."
+  ]
+ },
+ {
+  "data": "2026-11-05",
+  "titulo": "O chat aprende com os erros e os acertos",
+  "itens": [
+   "Reprovações e correções do gerente viram erros a evitar, sem nomes, para todos os vendedores. O assistente avisa se a proposta está repetindo um deles.",
+   "Propostas aprovadas continuam ensinando os acertos, sem nomes.",
+   "As conversas também são vetorizadas: cada vendedor só encontra as próprias. Conversa na lixeira sai da base."
+  ]
+ },
+ {
+  "data": "2026-11-05",
+  "titulo": "Alçada, preço estimado e calculadoras dentro da opção",
+  "itens": [
+   "Alçada por valor: em Configurações › Usuários, cada gerente pode ter um limite. Quem está abaixo do valor da proposta não aprova, não reprova nem corrige, e só quem pode decidir recebe o aviso.",
+   "O valor conta a opção mais cara em 12 meses, somando o que vai grátis.",
+   "Preço estimado: em cada plano dá para dizer quanto o cliente pode pagar. Se passar, o criador mostra o que tirar, com um toque para tirar.",
+   "Cada item mostra se é barato, médio ou caro em relação ao catálogo.",
+   "Cada plano abre a calculadora da solução (Calculadora CNM no Cidade na Mão, Tabela de preço nas outras), e a tabela salva aparece dentro do plano e no resumo."
+  ]
+ },
+ {
+  "data": "2026-11-03",
+  "titulo": "Base de contexto: a IA aprende com as propostas aprovadas",
+  "itens": [
+   "Toda proposta aprovada pelo gerente vira conhecimento da IA, como padrão: solução, porte, canal, suporte, itens, grátis e justificativas — sem nome de cliente, cidade ou vendedor.",
+   "Configurações › Base de contexto: o gerente insere documentos (PDF, Word, Excel, CSV, texto) — PRDs, manuais, a planilha de funcionalidades — e acompanha a vetorização.",
+   "A cada mensagem o assistente recebe só os trechos mais parecidos com o assunto (busca vetorial no banco), e pode consultar a base quando o vendedor perguntar algo direto.",
+   "Respostas curtas de botão reaproveitam a última busca da conversa, sem esperar de novo.",
+   "O banco passou a ficar no Supabase (São Paulo), com conexão conferida por certificado."
+  ]
+ },
+ {
+  "data": "2026-11-03",
+  "titulo": "Tela de Aprovação do gerente",
+  "itens": [
+   "Item “Aprovação” na barra lateral do gerente, com o número de propostas esperando decisão.",
+   "Tela própria, separada do chat: fila “Esperando” e “Já decididas”; ao escolher uma proposta, aparecem os avisos (grátis, sem justificativa, sem preço, texto jurídico não validado), os totais dos três planos, o que mudou desde a versão anterior e o resumo do negócio.",
+   "Aprovar e Reprovar com motivo direto na tela; depois de decidir, já abre a próxima da fila.",
+   "Corrigir na tabela, ver a proposta em PDF e abrir a conversa a partir da mesma tela.",
+   "O aviso do sino de proposta esperando o gerente abre direto na tela de Aprovação.",
+   "Corrigido: a aba Resumo, o “Copiar texto para WhatsApp” e o PDF do resumo, que tinham parado de funcionar em 30/10.",
+   "O assistente faz as perguntas de suporte (horas, operadores, distribuição, integração) com botões de múltipla escolha."
+  ]
+ },
+ {
+  "data": "2026-10-30",
+  "titulo": "Novo modelo da proposta (3 páginas)",
+  "itens": [
+   "A proposta em PDF segue o modelo da SASI: capa com a solução e o cliente, página com a tabela de preços completa dos três planos e página de recomendação de modalidade de contratação.",
+   "Rodapé oficial com logo da SASI, selos ISO 27001 e LGPD, nota 4,8 nas lojas e botões do Google Play e da App Store.",
+   "Itens sem custo aparecem como economia (valor e % de desconto) e por habitante/mês usa a população do IBGE.",
+   "O chat pergunta como o cliente público vai contratar (inexigibilidade, dispensa, adesão a ATA ou ATA por inexigibilidade + adesão).",
+   "Configurações › Modalidades: o gerente edita os textos jurídicos e marca quando o Jurídico validou; editar tira a validação.",
+   "A tela do celular na capa é provisória, até decidirmos o que vai nela.",
+   "Logo da SASI no topo do chat e na tela de entrada.",
+   "Na lista de conversas, o ⋯ ao lado de cada uma permite renomear e excluir (vai para a Lixeira por 30 dias).",
+   "Página 2 da proposta refeita no desenho do modelo: um bloco por plano com ✓ e o preço à direita, quadros de resumo, economia e cronograma. O detalhamento item a item foi para um anexo no fim.",
+   "“Baixar prévia em PDF” também no rascunho, com a marca “Prévia” até o gerente aprovar; a prévia no painel agora cabe na largura."
+  ]
+ },
+ {
+  "data": "2026-10-30",
+  "titulo": "Banco de dados Postgres, histórico e lixeira",
+  "itens": [
+   "Tudo passou a ficar num banco Postgres (antes eram arquivos): usuários, propostas, versões, mensagens, anexos, avisos e catálogo.",
+   "Histórico de tudo o que muda (quem, quando, antes → depois), que ninguém consegue alterar nem apagar.",
+   "Registro de entradas, saídas e senhas erradas.",
+   "Lixeira em Configurações: conversa apagada fica 30 dias e volta inteira com um clique.",
+   "Ícone de lixeira no topo para tirar um rascunho da lista.",
+   "Suas preferências de tela (largura do painel, barra lateral) seguem você em qualquer computador.",
+   "Pronto para mudar para o Supabase (local ou na nuvem) sem reescrever nada."
+  ]
+ },
+ {
+  "data": "2026-10-30",
+  "titulo": "Grátis, justificativa e resumo do negócio",
+  "itens": [
+   "Botão Grátis em cada item da tabela: o item sai do total e aparece em destaque para o gerente, com o valor que deixa de ser cobrado.",
+   "Campo \"Para quê?\" em todo item com quantidade maior que 1; o que ficar sem justificativa aparece como \"faltou\" (não trava o envio).",
+   "As horas de suporte remoto já vêm com o \"para quê\" preenchido pela regra da faixa.",
+   "Nova aba Resumo do negócio: escopo e serviços por plano, e itens com justificativa e preço.",
+   "Resumo em PDF e em texto pronto para colar no WhatsApp.",
+   "O gerente vê, antes de decidir, quantos itens vão grátis e quantas quantidades estão sem justificativa.",
+   "Na proposta que vai ao cliente, o item grátis aparece como \"Sem custo\"; as justificativas ficam só no resumo interno.",
+   "Pelo chat também dá: \"o WhatsApp vai grátis no Pro\" ou \"os 3 canais são para saúde, educação e fiscal\"."
+  ]
+ },
+ {
+  "data": "2026-10-29",
+  "titulo": "Configurações mais completas",
+  "itens": [
+   "Novas abas PRD e Novidades em Configurações.",
+   "O botão Criar item (e o Cadastrar, em Usuários) não sai mais para fora da janela.",
+   "A lupa da busca de itens não fica mais em cima do texto."
+  ]
+ },
+ {
+  "data": "2026-10-27",
+  "titulo": "Criador de propostas com chat, primeira versão",
+  "itens": [
+   "Endereço próprio, separado do E- Propostas, com login por e-mail e senha.",
+   "Chave do GPT e token do HubSpot ficam só no servidor (arquivo .env).",
+   "O chat busca os seus últimos negócios no HubSpot ou cria um novo; nunca mostra negócio de outro vendedor.",
+   "Quem ainda não é dono no HubSpot continua: o negócio fica só na proposta.",
+   "Canal sugerido pela população do IBGE; o vendedor pode trocar, com motivo.",
+   "A proposta leva os três planos (Básico, Pro e Premium): implementação no 1º mês, licença e suporte mensais.",
+   "Aprovação: o vendedor aprova, o PDF é gerado e vai para o gerente. Notificações no sino.",
+   "Configurações › Itens (preços) e Usuários, editáveis pelo gerente.",
+   "O assistente sempre escreve a pergunta em texto, mesmo quando mostra botões."
+  ]
+ },
+ {
+  "data": "2026-10-26",
+  "titulo": "PRD V.1",
+  "itens": [
+   "PRD do Criador de propostas com chat escrito no modelo PRD-Base da SASI, para validação."
+  ]
+ }
+]

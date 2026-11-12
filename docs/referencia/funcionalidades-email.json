@@ -1,0 +1,207 @@
+{
+ "_fonte": "Funcionalidades_por_Solucao_SASI.xlsx (30/10/2026), aba 1: até 6 funcionalidades por solução, com acentos corrigidos e o benefício para a gestão encurtado. Só as soluções cujo nome bate com o campo Solução do HubSpot.",
+ "solucoes": {
+  "Aluno Abordo": [
+   {
+    "t": "Reconhecimento facial com prova de vida",
+    "d": "Garante controle preciso de presenças e evita fraudes."
+   },
+   {
+    "t": "Notificações em tempo real",
+    "d": "Reduz ligações e atendimentos presenciais com reclamações."
+   },
+   {
+    "t": "Rastreamento de veículos via GPS",
+    "d": "Permite visualizar trajetos em tempo real e verificar desvios."
+   },
+   {
+    "t": "Gestão de Rotas e Paradas",
+    "d": "Facilita planejar rotas e analisar km para otimizar custos."
+   },
+   {
+    "t": "Cadastro de Motoristas e Monitores",
+    "d": "Ajuda a organizar equipe, documentos e responsabilidades."
+   },
+   {
+    "t": "Controle de veículos e documentação",
+    "d": "Evita multas e falhas com alertas de documentos e manutenção."
+   }
+  ],
+  "Habita Fácil": [
+   {
+    "t": "Cadastro e Recadastramento Digital",
+    "d": "Centraliza cadastros e documentos e reduz processos manuais."
+   },
+   {
+    "t": "Acompanhamento do Cadastro",
+    "d": "Facilita organizar e acompanhar os processos habitacionais."
+   },
+   {
+    "t": "Critérios de Elegibilidade",
+    "d": "Apoia a orientação sobre critérios de cada programa."
+   },
+   {
+    "t": "Centralização de Cadastros",
+    "d": "Permite registrar, consultar e organizar cadastros recebidos."
+   },
+   {
+    "t": "Aprovação e Reprovação de Cadastros",
+    "d": "Permite à equipe analisar e definir o resultado do cadastro."
+   },
+   {
+    "t": "Permissões e Acessos",
+    "d": "Permite definir níveis de acesso conforme o cargo."
+   }
+  ],
+  "Conecta Hans": [
+   {
+    "t": "Aviso de sintomas",
+    "d": "Apoia identificar e acompanhar pessoas com sinais de hanseníase."
+   },
+   {
+    "t": "Acompanhamento do tratamento",
+    "d": "Facilita acompanhar os pacientes durante o tratamento."
+   },
+   {
+    "t": "Área educacional sobre Hanseníase",
+    "d": "Contribui para orientação e conscientização sobre a doença."
+   },
+   {
+    "t": "Apoio contínuo durante o tratamento",
+    "d": "Fortalece o acompanhamento e a adesão ao tratamento."
+   }
+  ],
+  "Gravidez Saudável": [
+   {
+    "t": "Pré-Natal",
+    "d": "Apoia organizar informações do acompanhamento da gestação."
+   },
+   {
+    "t": "Pré e Pós-Parto",
+    "d": "Organiza informações dos períodos antes e depois do parto."
+   },
+   {
+    "t": "Vacinação",
+    "d": "Apoia acompanhar informações de vacinação da mãe e do bebê."
+   }
+  ],
+  "Remédio em Casa": [
+   {
+    "t": "Solicitação de medicamentos",
+    "d": "Centraliza pedidos e facilita o acompanhamento."
+   },
+   {
+    "t": "Envio de receitas e laudos médicos",
+    "d": "Mantém os documentos registrados e vinculados ao atendimento."
+   },
+   {
+    "t": "Confirmação de recebimento",
+    "d": "Permite registrar a entrega e acompanhar o atendimento."
+   },
+   {
+    "t": "Registro e controle de dados",
+    "d": "Organiza dados e apoia o acompanhamento da distribuição."
+   },
+   {
+    "t": "Mapa de Farmácias Populares",
+    "d": "Facilita orientar sobre locais de acesso a medicamentos."
+   }
+  ],
+  "Melhor em Casa": [
+   {
+    "t": "Registro de Pacientes",
+    "d": "Centraliza informações dos pacientes atendidos pelo programa."
+   },
+   {
+    "t": "Lista de Pacientes",
+    "d": "Permite organizar e visualizar pacientes da atenção domiciliar."
+   },
+   {
+    "t": "Histórico de Atendimentos",
+    "d": "Registra atendimentos e ajuda a acompanhar a assistência."
+   },
+   {
+    "t": "Atendimento Domiciliar",
+    "d": "Apoia organizar e registrar atendimentos fora da unidade."
+   },
+   {
+    "t": "Visitas e Monitoramento",
+    "d": "Permite acompanhar visitas e monitoramento na assistência."
+   },
+   {
+    "t": "Equipe de Atendimento",
+    "d": "Facilita organizar os profissionais do cuidado domiciliar."
+   }
+  ],
+  "HiperDia": [
+   {
+    "t": "Acompanhamento da Pressão Arterial",
+    "d": "Facilita acompanhar os registros relacionados à hipertensão."
+   },
+   {
+    "t": "Acompanhamento da Glicemia",
+    "d": "Apoia o monitoramento das informações relacionadas ao diabetes."
+   },
+   {
+    "t": "Controle de Medicações",
+    "d": "Organiza informações sobre medicamentos usados pelos pacientes."
+   },
+   {
+    "t": "Acompanhamento do Tratamento",
+    "d": "Reúne dados para acompanhamento contínuo de pacientes crônicos."
+   }
+  ],
+  "Frota Feliz": [
+   {
+    "t": "Checklist Diário de Veículos",
+    "d": "Monitoramento do estado dos veículos em tempo real."
+   },
+   {
+    "t": "Controle de Abastecimento",
+    "d": "Redução de desperdícios e fraudes no consumo de combustível."
+   },
+   {
+    "t": "Manutenção Preventiva e Alertas",
+    "d": "Prevenção de falhas mecânicas e redução de custos inesperados."
+   },
+   {
+    "t": "Botão de Pânico e Registro de Incidentes",
+    "d": "Resposta rápida a emergências e aumento da segurança."
+   },
+   {
+    "t": "Relatórios Inteligentes",
+    "d": "Análises detalhadas para tomada de decisão estratégica."
+   },
+   {
+    "t": "Monitoramento e Histórico da Frota",
+    "d": "Visão completa do desempenho da frota ao longo do tempo."
+   }
+  ],
+  "Empresa na Mão": [
+   {
+    "t": "Gestão de RH",
+    "d": ""
+   },
+   {
+    "t": "Controle de portaria / acesso",
+    "d": ""
+   },
+   {
+    "t": "Controle de ponto / jornada",
+    "d": ""
+   },
+   {
+    "t": "Denúncias anônimas",
+    "d": ""
+   },
+   {
+    "t": "Gestão de treinamentos",
+    "d": ""
+   },
+   {
+    "t": "Comunicação interna",
+    "d": ""
+   }
+  ]
+ }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entrar · Criador de propostas</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',system-ui,sans-serif;background:#0d2149;color:#0f172a;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:16px}
+.box{background:#fff;border-radius:14px;width:380px;max-width:100%;padding:28px}
+.logo{display:block;width:150px;height:auto;margin:0 0 18px}
+.k{font-size:11px;font-weight:600;letter-spacing:1.4px;text-transform:uppercase;color:#00863f}
+h1{font-size:20px;font-weight:600;margin:4px 0 2px}
+p{font-size:13px;color:#475569}
+label{display:block;font-size:13px;font-weight:500;color:#475569;margin:16px 0 6px}
+input{width:100%;padding:10px 12px;border:1px solid #cbd5e1;border-radius:9px;font:inherit;font-size:14px;outline:0}
+input:focus{border-color:#0d2149}
+button{width:100%;margin-top:20px;padding:11px;border:0;border-radius:9px;background:#0d2149;color:#fff;font:inherit;font-weight:600;cursor:pointer}
+button:disabled{opacity:.6}
+.erro{margin-top:12px;font-size:13px;color:#e11d48;min-height:18px}
+</style>
+</head>
+<body>
+<form class="box" id="f">
+  <img class="logo" src="/img/sasi-logo.png" alt="SASI — Comunicação Customizável">
+  <div class="k">Criador de propostas</div>
+  <h1>Entrar</h1>
+  <p>Use o e-mail e a senha cadastrados.</p>
+  <label for="email">E-mail</label>
+  <input id="email" type="email" autocomplete="username" required autofocus placeholder="nome@sasi.com.br">
+  <label for="senha">Senha</label>
+  <input id="senha" type="password" autocomplete="current-password" required>
+  <button id="bt">Entrar</button>
+  <div class="erro" id="erro" role="alert"></div>
+</form>
+<script>
+document.getElementById('f').addEventListener('submit', function(e){
+  e.preventDefault();
+  var bt=document.getElementById('bt'), er=document.getElementById('erro');
+  bt.disabled=true; er.textContent='';
+  fetch('/api/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:document.getElementById('email').value,senha:document.getElementById('senha').value})})
+    .then(function(r){ return r.json().then(function(d){ if(!r.ok) throw new Error(d.erro||'Não foi possível entrar.'); location.href='/'; }); })
+    .catch(function(x){ er.textContent=x.message; bt.disabled=false; });
+});
+</script>
+</body>
+</html>
