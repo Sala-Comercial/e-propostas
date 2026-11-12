@@ -4,10 +4,15 @@
 **Quando:** antes de trocar o chat pelo formulário (fase 1)
 **Para quê:** ter o tempo real de hoje, para comparar com o formulário depois do piloto.
 
+## Onde
+
+No **escritório**, com o celular **no Wi-Fi da SASI**. O criador ainda roda num computador da empresa e só abre na rede interna: no 4G ele não carrega.
+Endereço: **http://10.63.23.33:8790**. Entre com o seu e-mail e a senha que o Leonardo passar.
+
 ## O que cada um faz
 
 1. Escolha **2 negócios reais** que você vai propor nos próximos dias.
-2. Use o **celular**, como faria saindo de uma reunião.
+2. Use o **celular**, como faria saindo de uma reunião (mas no Wi-Fi da SASI).
 3. Abra o criador e toque em **Nova conversa**. **Anote a hora** (coluna "Início").
 4. Responda o que o assistente perguntar, do seu jeito. Não pule nada e não peça ajuda a ninguém.
 5. Quando aparecerem **os preços dos 3 planos** (Minimal, Premium e AI Driven), **anote a hora** (coluna "Preço apareceu").
